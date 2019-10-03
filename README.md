@@ -31,6 +31,12 @@
 <br/>
 <br/>
 
+## 문제풀이 전 실습
+- next_permultation 사용해보기
+
+<br/>
+<br/>
+
 ## 문제풀이 시나리오
 
 1. 입력
@@ -53,7 +59,7 @@
 <br/>
 
 ## eastgerm의 코드
-```
+~~~cpp
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -237,4 +243,4 @@ int safeZone() {
 void output() {
     cout << safeZone() << '\n';
 }
-```
+~~~
